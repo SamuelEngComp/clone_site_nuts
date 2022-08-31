@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstComponentComponent implements OnInit {
 
+  showMessage: boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  exibirMensagem(): void {
+    this.showMessage = !this.showMessage;
   }
 
 }
