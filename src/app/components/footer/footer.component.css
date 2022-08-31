@@ -1,7 +1,13 @@
-.footer {
+.footer-bottom {
     position: fixed;
     bottom: 0;
-    background-color: red;
+    background-color: #673ab7;
+    width: 100%;
+    text-align: center;
+}
 
+.footer-text{
+    padding: 10px;
+    color: white;
 }
 
